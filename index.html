@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>MedHeart </title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html>
+<head>
+<title>MedHeart</title>
+
+<style>
+
+body{
+font-family:Arial, sans-serif;
+background:#f5f7fb;
+margin:0;
+padding:20px;
+}
+
+header{
+background:#c62828;
+color:white;
+padding:15px;
+border-radius:8px;
+}
+
+h1{
+margin:0;
+}
+
+.container{
+margin-top:20px;
+}
+
+.card{
+background:white;
+padding:15px;
+margin-bottom:10px;
+border-radius:8px;
+cursor:pointer;
+box-shadow:0 2px 6px rgba(0,0,0,0.2);
+}
+
+.card:hover{
+background:#f1f1f1;
+}
+
+#diseaseDetail{
+background:white;
+padding:15px;
+border-radius:8px;
+margin-top:15px;
+}
+
+.calculator{
+margin-top:30px;
+background:white;
+padding:15px;
+border-radius:8px;
+}
+
+input,select{
+padding:8px;
+margin:5px 0;
+width:100%;
+}
+
+button{
+background:#c62828;
+color:white;
+border:none;
+padding:10px;
+cursor:pointer;
+border-radius:6px;
+}
+
+button:hover{
+background:#a71d1d;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<img src="https://drive.google.com/thumbnail?id=1jM4yYZKrjuhofZjNOQ8z3zTn78LjHIf9&sz=800" class="logo">
+<h1>MedHeart Cardiology Reference</h1>
+<p>Clinical Guide for PharmD & Healthcare Professionals</p>
+</header>
+<div id="homePage" style="text-align:center;margin-top:20px">
+
+<h1 style="font-size:48px;color:#c62828;font-family:Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:2px;">
+MedHeart
+</h1>
+
+<p style="font-size:16px;color:#555;margin-top:10px;">
+Clinical Cardiology Reference Platform
+  </p>
+
+
+
+ 
+<div class="container" id="mainApp" 
+<h2>Cardiology Diseases</h2>
+<div class="searchBox">
+<input type="text" id="searchInput" placeholder="Search disease...">
+  </div>
+<div id="diseaseList"></div>
+<div id="riskCalculators">
+
+<h2>Risk Calculators</h2>
+
+<div class="card" onclick="openCalculator('ascvd')">
+ASCVD Risk
+</div>
+
+<div class="card" onclick="openCalculator('cha2ds2')">
+CHA2DS2-VASc
+</div>
+
+<div class="card" onclick="openCalculator('hasbled')">
+HAS-BLED
+</div>
+
+<div class="card" onclick="openCalculator('timi')">
+TIMI Risk
+</div>
+
+<div class="card" onclick="openCalculator('grace')">
+GRACE Score
+</div>
+
+<div id="calculatorArea"></div>
+
+  </div>
+<div id="diseaseDetail"></div>
+
+</div>
+
+  <div
+
+
+
+</script>
+
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
